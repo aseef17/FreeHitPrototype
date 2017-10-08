@@ -1,23 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Navigate home</string>
-    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
-    <string name="abc_action_bar_up_description">Navigate up</string>
-    <string name="abc_action_menu_overflow_description">More options</string>
-    <string name="abc_action_mode_done">Done</string>
-    <string name="abc_activity_chooser_view_see_all">See all</string>
-    <string name="abc_activitychooserview_choose_application">Choose an app</string>
-    <string name="abc_searchview_description_clear">Clear query</string>
-    <string name="abc_searchview_description_query">Search query</string>
-    <string name="abc_searchview_description_search">Search</string>
-    <string name="abc_searchview_description_submit">Submit query</string>
-    <string name="abc_searchview_description_voice">Voice search</string>
-    <string name="abc_shareactionprovider_share_with">Share with</string>
-    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="action_settings">Settings</string>
-    <string name="app_name">Side Menu</string>
-    <string name="drawer_close">Close</string>
-    <string name="drawer_open">Open</string>
+    <string name="app_name">FreeHit</string>
+
+    <!-- Tab Names -->
+    <string name="category_matches">Matches</string>
+    <string name="category_news">News</string>
+    <string name="category_social">Social</string>
+    <string name="category_stats">Stats</string>
+
+    <!-- Twitter API keys -->
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">IVuwYVqrlivLssHFdqJvXnuyS</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">t8N8vM2KMCnzHJ71puVfJrOZ9NgjwE8RU5IM3L5VQfF5VfnwNr</string>
+
+    <!--STATS SCREEN-->
+    <string name="search_player">Player</string>
+    <string name="search_team">Team</string>
+    <string name="search_series">Series</string>
+    <string name="rankings">Rankings</string>
+    <string name="records">Records</string>
+    <string name="fav">Favourites</string>
+
+
+    <!--COMPLETE LIST OF MATCHES-->
+    <string name="upcoming_list">Upcoming Matches</string>
+    <string name="past_list">Past Matches</string>
+    <string name="live_list">Live Matches</string>
+
+    <string name="players">Players</string>
+
+
+    <!--FOR EMPTY VIEW OF NEWS FRAGMENT-->
+    <string name="EmptyNews">NO NEWS FOUND</string>
+
+    <!--FOR EMPTY VIEW OF POLLS FRAGMENT-->
+    <string name="EmptyPolls">NO POLLS FOUND</string>
+
+    <!--FOR EMPTY VIEW LIVE MATCHES -->
+    <string name="EmptyLiveMatches">NO LIVE MATCHES</string>
+
+    <!--FOR TOOLS IN LIVE,UPCOMING,PAST MATCHES-->
+    <string name="matches_view_more">Click To View More</string>
+
+    <string name="no_internet_connection">Check Your Internet Connection</string>
+
+    <!-- for intro slide -->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">SCORES ON THE GO!</string>
+    <string name="slide_1_desc">It couldn\'t have been easier to check scores!</string>
+    <string name="slide_2_title">NEWS</string>
+    <string name="slide_2_desc">Get the best and the latest!</string>
+    <string name="slide_3_title">POLLS AND SOCIAL</string>
+    <string name="slide_3_desc">Keep yourself updated with the latest tweets and make your voice heard with POLLs!</string>
+    <string name="slide_4_title">STATS</string>
+    <string name="slide_4_desc">Get answers to all your cricket queries!</string>
+    <string name="slide_5_title">PICK YOUR FAVOURITE COUNTRY</string>
+    <string name="slide_5_desc">Select the country that you want to follow!</string>
+
+
+    <!-- For Country Picker Dialog -->
+    <string name="search">Search&#8230;</string>
+
+    <!-- Country names for Country Picker in settings -->
+    <string name="settings_team_Afghanistan_label">Afghanistan</string>
+    <string name="settings_team_Australia_label">Australia</string>
+    <string name="settings_team_Bangladesh_label">Bangladesh</string>
+    <string name="settings_team_England_label">England</string>
+    <string name="settings_team_Ireland_label">Ireland</string>
+    <string name="settings_team_India_label">India</string>
+    <string name="settings_team_NewZealand_label">New Zealand</string>
+    <string name="settings_team_Pakistan_label">Pakistan</string>
+    <string name="settings_team_SouthAfrica_label">South Africa</string>
+    <string name="settings_team_SriLanka_label">Sri Lanka</string>
+    <string name="settings_team_WestIndies_label">West Indies</string>
+    <string name="settings_team_Zimbabwe_label">Zimbabwe</string>
+
+    <!-- Strings used in Custom Settings -->
+    <string name="settings_select_team">Select Team</string>
+    <string name="settings_select_team_label">Select Team</string>
+    <string name="team_select_title">PICK YOUR FAVOURITE TEAM</string>
+    <string name="select_team_button">SELECT COUNTRY</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- For Information fragment of match ScoreCard -->
+    <string name="info">Match Info : </string>
+    <string name="match">Match : </string>
+    <string name="series">Series : </string>
+    <string name="date">Date : </string>
+    <string name="lastTime">Time : </string>
+    <string name="venue">Stadium : </string>
+    <string name="umpires">Umpires:</string>
+    <string name="third_umpires">3rd Umpires : </string>
+    <string name="referee">Referee : </string>
+    <string name="PlayingX1">Playing XI : </string>
+    <string name="weather">Weather : </string>
+    <string name="toss">Toss : </string>
+
+    <!-- For Settings gear Icon -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">FreeHit Settings</string>
+
+
 </resources>
